@@ -1,0 +1,68 @@
+
+.content-side {
+    display: block;
+    margin: 0;
+    background-position: center;
+    padding: 15% 0px;
+    background-repeat: repeat;
+    background-size: cover;
+    background-image: url("https://cdn.pixabay.com/photo/2013/04/04/12/34/mountains-100367_1280.jpg");
+}
+.mytext-show h1 {
+    font-family: Sans-serif;
+    display: flex;
+    justify-content: center;
+    font-size: 88px;
+    margin: 10px;
+    font-weight: 700;
+    color: transparent;
+    background-image: url("https://cdn.pixabay.com/photo/2018/02/27/23/03/autumn-3186876_640.jpg");
+    background-size: cover;
+    background-size: 32%;
+    background-clip: text;
+    -webkit-background-clip: text;
+
+}
+
+.sec-ontext {
+    display: flex;
+    font-family: "Lucida Console", "Courier New", monospace;
+    justify-content: center;
+
+
+}
+
+.sec-text {
+    position: relative;
+    animation: mymove 4.5s infinite;
+}
+@keyframes mymove {
+    0%   {top: 0px; color: #ff2600; }
+    25%   {top: 25px; color: #ff9900; scale: 2 140%;}
+    50%   {top: 10px; color: #ffffff;}
+    75%   {top: 15px; color: #ff9900; scale: 2 140%;}
+    100%   {top: 0px; color: #ff2600;}
+
+}
+.sec-text {
+    color: wheat;
+    font-size: 22px;
+    text-shadow: 0px 0px 10px #000000;
+    text-align: center;
+    margin: 32px 0px;
+    text-decoration: double;
+    padding: 10px 10px;
+    /* border-bottom: 4px solid #ffb84d; */
+    border-radius: 10px;
+}
+
+.text {
+    font-family: sans-serif;
+    font-size: 22px;
+    font-weight: 700;
+    background:linear-gradient(75deg,#ffbf00,#ff9900,#ff4800,#ff2600);
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip:text;
+    
+    
+}
